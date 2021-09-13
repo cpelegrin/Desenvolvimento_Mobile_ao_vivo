@@ -1,3 +1,4 @@
+import 'package:encontros_ao_vivo/encontro3_page1.dart';
 import 'package:flutter/material.dart';
 
 import 'encontro1_page.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: Text("Olá"), //Incluindo Text sem widget de layout.
-      home: Encontro1Page(),
+      home: E3Page1(),
     );
   }
 }
